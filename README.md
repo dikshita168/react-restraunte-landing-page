@@ -1,12 +1,33 @@
-# React + Vite
+# 🍽️ React Restaurant Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive restaurant landing page built using **React**. This project is perfect for showcasing a restaurant brand with smooth navigation and a clean user interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏠 **Home Section** – Catchy hero section with restaurant branding and call-to-action.
+- 📖 **About Section** – Information about the restaurant, vision, and story.
+- 🔄 **Working of Brand** – Highlights how the restaurant operates or what makes it special.
+- 💬 **Testimonials** – Customer feedback to build trust and credibility.
+- 📞 **Contact Section** – Simple form or details to connect with customers.
+- 🔻 **Footer** – Includes useful links, social media icons, and copyright.
 
-## Expanding the ESLint configuration
+## 📱 Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully optimized for all screen sizes – mobile, tablet, and desktop.
+
+## 📸 Preview
+
+![App Screenshot](https://github.com/dikshita168/react-restraunte-landing-page/blob/main/UI-img-restuarant-landing-page-react/one-homepage-restuarant.png)
+![App Screenshot](https://github.com/dikshita168/react-restraunte-landing-page/blob/main/UI-img-restuarant-landing-page-react/two-about-restuarant.png)
+![App Screenshot](https://github.com/dikshita168/react-restraunte-landing-page/blob/main/UI-img-restuarant-landing-page-react/three-working-restuarant.png)
+![App Screenshot](https://github.com/dikshita168/react-restraunte-landing-page/blob/main/UI-img-restuarant-landing-page-react/four-testimonals-restuarant.png)
+![App Screenshot](https://github.com/dikshita168/react-restraunte-landing-page/blob/main/UI-img-restuarant-landing-page-react/five-contact-footer.png)
+
+## 🛠️ Tech Stack
+
+- React JS
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Flexbox & Grid for Layout
+
+
