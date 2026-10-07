@@ -23,20 +23,28 @@ const Navbar = () => {
     const menuOptions = [
         {
             text : "Home",
-            icon : <HomeIcon/>
+            icon : <HomeIcon/>,
+            id : 'home'
         },
         {
             text : "About",
-            icon : <InfoIcon/>
-        },{
+            icon : <InfoIcon/>,
+            id : 'about'
+        },
+        {
             text : "Testimonials",
-            icon : <CommentRoundedIcon/>
-        },{
+            icon : <CommentRoundedIcon/>,
+            id : 'testimonial'
+        },
+        {
             text : "Contact",
-            icon : <PhoneRoundedIcon/>
-        },{
+            icon : <PhoneRoundedIcon/>,
+            id : 'contact'
+        },
+        {
             text : "Cart",
-            icon : <ShoppingCartRoundedIcon/>
+            icon : <ShoppingCartRoundedIcon/>,
+            id : 'contact'
         },
     ]
 
@@ -64,16 +72,23 @@ const Navbar = () => {
         {/* In React, a Drawer is a UI component commonly used to display a sliding panel, usually from the side (left or right), top, or bottom of the screen. It is typically used for:  im checking wherathe its looks adsberbh this is */}
 
         <Drawer open={openMenu} onClose={()=> setOpenMenu(false)} anchor='right' >
-            <Box sx={{width:250}}
+            <Box sx={{width:200}}
                 role ="presentation" 
                 onClick={()=> setOpenMenu(false)} 
                  onKeyDown = {()=> setOpenMenu(false)}>
 
                 <List>
                     {
-                        menuOptions.map((item)=>(
+                        menuOptions.map((item , index)=>(
                             <ListItem key={item.text} disablePadding>
-                                <ListItemButton>
+                                <ListItemButton
+                              onClick={()=>{
+                                const section = document.getElementById(item.id);
+                                if(section){
+                                  section.scrollIntoView({behavior : "smooth"});
+                                }
+                                setOpenMenu(false)
+                              }} >
                                     <ListItemIcon>{item.icon}</ListItemIcon>
                                     <ListItemText primary={item.text}/>
                                 </ListItemButton>

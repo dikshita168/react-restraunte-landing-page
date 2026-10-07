@@ -9,17 +9,17 @@ const Work = () => {
         {
             image : PickMeals,
             title : "Picks Meals",
-            text : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati provident ducimus corporis quaerat veritatis dolorem!"
+            text: "Explore our menu and choose from a variety of delicious dishes made with fresh ingredients."
         },
         {
             image : ChooseMeals,
             title : "Choose How Often",
-            text : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati provident ducimus corporis quaerat veritatis dolorem!"
+            text: "Select your favorite dishes and create a meal that perfectly suits your taste and cravings."
         },
         {
             image : DeliveryMeals,
             title : "Fast Deliveries",
-            text : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati provident ducimus corporis quaerat veritatis dolorem!"
+            text: "Sit back, relax, and enjoy freshly prepared food served with care and great hospitality."
         }
     ]
 
@@ -31,9 +31,9 @@ const Work = () => {
             <p className='primary-subheading'>Work</p>
             <h1 className='primary-heading'>How It Works</h1>
             <p className='primary-text'>
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt 
-            magna non et elit. Dolor  turpis molestie dui
-            magnis facilisis at fringilla quam.  
+            From choosing your favorite dishes to enjoying every bite, we make
+            your dining experience simple, delicious, and enjoyable from start
+            to finish. 
             </p>
         </div>
 

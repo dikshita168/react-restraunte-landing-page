@@ -8,15 +8,13 @@ const Testimonials = () => {
         <div className='work-section-top'>
             <p className='primary-subheading'>Testimonials</p>
             <h1 className='primary-heading'>What They Are Saying</h1>
-            <p className='primary-text'>Lorem ipsum dolor sit amet consectetur. Non tincidunt 
-            magna non et elit. Dolor  turpis molestie dui
-            magnis facilisis at fringilla quam.</p>
+            <p className='primary-text'>Our guests love the food, warm atmosphere, and friendly service. Here is what some of our customers have to say about their experience.</p>
         </div>
 
         <div className='testimonial-section-bottom'>
             <img src={ProfilePic} alt="" />
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus delectus error consequuntur et, aliquam aperiam?
+                The food was absolutely delicious and the service was wonderful. Everything was fresh, flavorful, and beautifully prepared. I would definitely love to visit again!
             </p>
             <div className='testimonials-stars-container'>
                 <AiFillStar/>

@@ -20,19 +20,18 @@ const About = () => {
             Food Is An Important Part Of A Balanced Diet
             </h1>
             <p className='primary-text'>
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt 
-            magna non et elit. Dolor  turpis molestie dui
-            magnis facilisis at fringilla quam.
+            We believe that great food brings people together. Our restaurant
+            is dedicated to serving delicious meals made with fresh ingredients,
+            rich flavors, and a passion for good cooking.
             </p>
 
             <p className='primary-text'>
-            Non tincidunt magna non et elit. Dolor turpis molestie 
-            dui magnis facilisis at fringilla quam
+            Whether you're dining with family, meeting friends, or simply enjoying your favorite meal, we're here to make every visit special.
             </p>
 
             <div className='about-buttons-container'>
                 <button className='secondary-button'>Learn More</button>
-                <button className='watch-video-button'><BsFillPlayCircleFill/>WAtch video</button>
+                <button className='watch-video-button'><BsFillPlayCircleFill/>Watch video</button>
             </div>
 
 
